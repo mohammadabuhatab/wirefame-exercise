@@ -1,0 +1,84 @@
+body{
+    margin: 100px;
+}
+
+
+header div {
+   width: 100%;
+ display:inline-flex;
+ background-color: gray;
+ 
+}
+
+div ul li {
+    display: inline-block;
+    padding: 40px;
+    color: white;
+}
+#bigPhoto{
+    width: 95%;
+    margin: 2.5%;
+}
+#images{
+    display: inline-flex;
+    width: 95%;
+    margin: 2.5%;
+}
+#leftPhoto{
+    float: left;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#centerPhoto{
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#rightPhoto{
+    float: right;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#secondPart{
+    clear: both;
+    width: 95%;
+    margin: 2.5%;
+    display: inline-flex;
+}
+
+#imgSecondArticle{
+    float: left;
+    padding-right: 20px;
+    
+}
+#thirdArticle{
+    float: right; 
+}
+h5{
+    font-weight: bold;
+    font-size: 40px;
+}
+p{
+    font-weight: bold;
+    text-align: justify;
+}
+
+#callAction{
+    
+    vertical-align: bottom;
+    background-color:gray;
+    padding: 30px;
+    margin: 50px;
+    float: right;
+   
+}
+#callAction:hover {
+    background-color: yellow;
+  }
+footer{
+    clear: both;
+    background-color: gray;
+    height: 30px;
+}
